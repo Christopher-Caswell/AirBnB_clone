@@ -50,7 +50,7 @@ def wompa(stuff):
 
 @app.route("/python/<text>", strict_slashes=False)
 @app.route("/python/", strict_slashes=False)
-def python(text="is cool"):
+def wompu(text="is cool"):
     """Just saying, cool people don't say they're cool"""
     return "Python %s" % text.replace('_', ' ')
 
